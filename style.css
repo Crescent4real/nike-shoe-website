@@ -29,6 +29,21 @@ section{
     color: white;
 }
 
+.btn{
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    background: #219150;
+    color: #ffffff;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #45c287;
+}
+
 /* HEADER STYLES*/
 
 header{
@@ -136,6 +151,85 @@ header .search-form.active{
 
 #menu-btn{
     display: none;
+}
+
+.home{
+    position: relative;
+}
+
+.home .slides-container .slide{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem 0;
+    display: none;
+}
+
+.home .slides-container .slide.active{
+    display: flex;
+}
+
+.home .slides-container .slide .content{
+    flex: 1 1 40rem;
+}
+
+.home .slides-container .slide .content span{
+    font-size: 2rem;
+    color: #ffff;
+}
+
+.home .slides-container .slide .content h3{
+    font-size: 6rem;
+    color: #45c287;
+    padding-top: .5rem;
+}
+
+.home .slides-container .slide .content p{
+    font-size: 1.8rem;
+    color: #e2e2e2;
+    padding: .5rem 0;
+    line-height: 2;
+}
+
+.home .slides-container .slide .image{
+    flex: 1 1 40rem;
+    padding: 3rem 0;
+}
+
+.home .slides-container .slide .image img{
+    width: 100%;
+}
+
+.home #slide-next,
+.home #slide-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: .1rem solid #e2e2e2;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.home #slide-next:hover,
+.home #slide-prev:hover{
+    background: #219150;
+    color: #ffffff;
+}
+
+.home #slide-next{
+    right: 2rem;
+}
+
+.home #slide-prev{
+    left: 2rem;
 }
 
 /* Media Queries */
