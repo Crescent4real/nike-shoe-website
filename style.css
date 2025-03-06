@@ -48,7 +48,18 @@ section{
     border-radius: .5rem;
     cursor: pointer;
     transition: .2s linear;
-    cursor: pointer;
+    cursor: pointer; 
+}
+
+.heading{
+    font-size: 3.5rem;
+    color: #219150;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.heading span{
+    color: #ffffff;
 }
 
 .btn:hover{
@@ -325,6 +336,33 @@ header .search-form.active{
 
 .products .box-container .box .content .stars span{
     color: #ffffff;
+}
+
+.products .box-container .box .content .btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    font-size: 2rem;
+    padding: 1.2rem 1.25rem;
+    border-radius: 1rem 0 1rem 0;
+}
+
+/* Banner Section */
+
+.banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.banner-container .banner{
+    flex: 1 1 42rem;
+    overflow: hidden;
+    height: 30rem;
+    position: relative;
 }
 
 
