@@ -476,6 +476,22 @@ header .search-form.active{
     border: .1rem solid #e2e2e2;
 }
 
+
+
+/* Reviews */
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box-container .box{
+    margin: 4rem 0;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
 /* Media Queries */
 
 @media(max-width: 991px){
