@@ -62,3 +62,4 @@ var swiper = new Swiper(".featured-slider", {
       },
     },
 });
+
