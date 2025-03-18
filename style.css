@@ -480,12 +480,12 @@ header .search-form.active{
 
 /* Reviews */
 
-.reviews-section {
+.review {
     padding: 50px 20px;
     text-align: center;
 }
 
-.reviews-section h2 {
+.review h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
     color: #ffffff;
