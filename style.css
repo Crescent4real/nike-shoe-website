@@ -507,7 +507,7 @@ body {
 }
 
 .section-description {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: #ffffff;
     margin-bottom: 40px;
 }
@@ -538,13 +538,13 @@ body {
 }
 
 .shoe-card h3 {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     margin: 15px 0 10px;
     color: #333;
 }
 
 .shoe-card .price {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     color: #219150;
     font-weight: bold;
     margin-bottom: 15px;
@@ -619,7 +619,7 @@ body {
 /* Footer */
 
 .footer {
-    background-color: #041800;
+    background-color: #000000;
     color: #ecf0f1;
     padding: 40px 0 20px;
     font-family: 'Arial', sans-serif;
@@ -645,7 +645,7 @@ body {
   
   .footer-contact p,
   .footer-social p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
   }
   
