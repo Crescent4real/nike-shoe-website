@@ -14,9 +14,7 @@
 
 html{
     font-size: 62.5%;
-    scroll-behavior: smooth;
     scroll-padding-top: 7rem;
-    overflow-x: hidden;
 }
 
 body{
@@ -645,7 +643,7 @@ body {
   
   .footer-contact p,
   .footer-social p {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     margin-bottom: 20px;
   }
   
@@ -701,7 +699,7 @@ body {
   
   .footer-social .social-icons a {
     color: #ecf0f1;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     transition: color 0.3s ease;
   }
   
